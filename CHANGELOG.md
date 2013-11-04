@@ -5,10 +5,12 @@
 - [#98]: add a validation error to the current form if a form of a previous step became invalid
 - BC breaks (follow `UPGRADE-3.0.md` to upgrade):
   - [#101]: support for concurrent instances of the same flow
+  - [#104]: removed options from method `createForm`
   - removed the step field template
 
 [#98]: https://github.com/craue/CraueFormFlowBundle/issues/98
 [#101]: https://github.com/craue/CraueFormFlowBundle/issues/101
+[#104]: https://github.com/craue/CraueFormFlowBundle/issues/104
 
 ## 2.1.4 (2013-12-05)
 
